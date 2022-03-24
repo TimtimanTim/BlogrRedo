@@ -1,0 +1,416 @@
+/* ----------------------------- STYLES APPLIED TO ALL  -------------------------------*/
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+
+html::-webkit-scrollbar{
+    background-color: white;
+    width: .75vw;
+}
+
+html::-webkit-scrollbar-thumb{
+    background-color: hsl(353, 100%, 62%);
+}
+
+
+/* ----------------------------- HEADER SECTION -------------------------------*/
+
+.header {
+    padding: 60px;
+    text-align: center;
+    background: hsl(13, 100%, 72%);
+    color: white;
+    font-size: 30px;
+    border-bottom-left-radius: 100px;
+}
+
+.header {
+    background-image: url(images/bg-pattern-intro-desktop.svg), linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+    background-position-y: -1350px , center ;
+    background-position-x: -450px , center ;
+    background-size: 3200px , 100%;
+    background-repeat: no-repeat;
+
+}
+
+
+.logo{
+        position: relative;
+        left: 100px;
+        height: 50px;
+        width: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+    }    
+
+
+.nav-bar{
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: bold;
+        min-height: auto;
+        text-align: center;
+        width: 90%;
+        position: absolute;
+        top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 35px;
+        border-radius: 5px;
+        text-align: center;
+        top: 75px;
+        right: 400px;
+        
+ 
+    }
+
+
+.label {
+        font-size: .9rem;
+        opacity: .8;
+        color: white;
+        transition: all 250ms ease-in-out;
+        cursor: pointer;
+}
+
+.label:hover{
+    opacity: 1;
+    text-decoration: underline;
+}
+
+
+
+.head-text h1 {
+    font-family: 'Overpass', sans-serif;
+    font-size: 65px;
+}
+
+.head-text p {
+    font-family: 'Overpass', sans-serif;
+    font-weight: 100px;
+    padding-block: 1rem 3rem;
+    font-size: 20px;
+}
+
+.head-text{
+    padding: 100px 0px 80px 0px;
+    text-align: center;
+    color: white;  
+
+}
+
+.arrow {
+    position: absolute;
+    top: 5px;
+
+}
+
+#arrow-light { right: 740px; }
+
+#arrow-light2{ right: 640px; }
+
+#arrow-light3{ right: 545px; }
+
+
+/* -----------------------------BUTTONS -------------------------------*/
+
+.button_one{
+
+    width: 500px;
+    margin: 16px auto;
+    display: flex;
+    gap: 10px;
+    align-items: right;
+    text-align: right;
+    justify-content: right;
+    position: absolute;
+    top: 40px;
+    left: 870px;
+
+}
+
+#login, #signup {
+    font-family: 'Overpass', sans-serif;
+    cursor: pointer;
+    
+}
+
+#login {
+    text-decoration: none;
+    opacity: 70%;
+    padding: 16px;
+    font-weight: 700;
+    font-size: 16px;
+    color:hsl(0, 0%, 100%);
+ 
+}
+
+#signup {
+    border: none;
+    border-radius: 100px;
+    padding: 15px 40px 0px 40px;
+    font-weight: bolder;
+    font-size: 16px;
+    background-color:hsl(0, 0%, 100%);
+    color:hsl(353, 100%, 62%)
+ 
+}
+
+
+#login:hover{
+  opacity: 100%;
+}
+#signup:hover{
+    background-color: hsl(355, 100%, 74%) ;
+    outline: none;
+    color: white;
+}
+
+
+.button_two{
+
+    width: 600px;
+    margin: 16px auto;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#start, #learn {
+    font-family: 'Overpass', sans-serif;
+    cursor: pointer;
+    
+}
+
+#start {
+    border: none;
+    border-radius: 100px;
+    background: none;
+    padding: 16px;
+    font-weight: 700;
+    font-size: 16px;
+    background-color:hsl(0, 0%, 100%);
+    color:hsl(356, 100%, 66%)
+ 
+}
+
+#learn {
+    border: none;
+    border-radius: 100px;
+    background: none;
+    padding: 16px;
+    font-weight: 700;
+    font-size: 16px;
+    border: 1px solid hsl(0, 0%, 100%);;
+    color: hsl(0, 0%, 100%);
+}
+
+
+#start:hover{
+    background-color: hsl(355, 100%, 74%) ;
+    outline: none;
+    color: white;
+}
+#learn:hover{
+    background-color: white;
+    outline: none;
+    color: hsl(355, 100%, 74%);
+}
+
+
+/* ----------------------------- BODY SECTION 1 -------------------------------*/
+
+.one {
+    padding: 100px 0px 320px 0px;
+    background-color: white;
+    background-image: url(images/illustration-editor-desktop.svg);
+    background-repeat: no-repeat;
+    background-position-y: 90px , center ;
+    background-position-x: 845px , center ;
+}
+
+.one h1 {
+    font-family: 'Overpass', sans-serif;
+    color: hsl(208, 49%, 24%);
+    font-weight: 300px;
+    
+}
+
+#h-text {
+    
+    font-size: 35px;
+    text-align: center;
+
+}
+
+#h-text2 {
+    border: none;
+    padding: 110px 0px 30px 150px;
+    font-size: 27px;
+}
+
+#h-text3 {
+    border: none;
+    padding: 80px 0px 30px 150px;
+    font-size: 27px;
+}
+
+
+.one p {
+    text-align: left;
+    font-family: 'Overpass', sans-serif;
+    padding-left: 150px;
+    border: none;
+    width: 655px;
+    line-height: 1.7rem;
+    color: rgb(55, 60, 65);
+
+}
+
+
+/* ----------------------------- BODY SECTION 2 -------------------------------*/
+
+
+.two {
+    background-color: hsl(237, 17%, 21%);
+    background-image: url(images/bg-pattern-circles.svg), linear-gradient(to right, hsl(237, 17%, 21%), hsl(237, 23%, 32%));
+    background-repeat: no-repeat;
+    background-position-x: -250px, center;
+    background-position-y: -600px, center;
+    background-size: 1100px, 100%;
+    padding: 0px 0px 110px 0px;
+    border-bottom-left-radius: 100px; 
+    border-top-right-radius: 100px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 300px;
+    color: white;
+}
+
+.two h1 {
+    padding: 100px 0px 30px 775px;
+    font-size: 35px;
+
+}
+
+.two p {
+
+    padding-left: 775px;
+    border: none;
+    width: 1290px;
+    line-height: 1.7rem;
+}
+
+#phone {
+    position: absolute;
+    bottom: -1350px;
+    left: 100px;
+}
+
+
+/* ----------------------------- BODY SECTION 3  -------------------------------*/
+
+
+.three {
+    font-family: 'Overpass', sans-serif;
+    padding: 100px 0px 300px 0px;
+    background-image: url(images/illustration-laptop-desktop.svg);
+    background-repeat: no-repeat;
+    background-position-x: -280px;
+    background-position-y: 110px;
+    
+}
+
+.three h1 {
+    padding-left: 750px;
+    color: hsl(208, 49%, 24%);
+    font-weight: 300px;
+    font-size: 30px;
+}
+
+#hthree {
+    padding-top: 200px;
+    padding-bottom: 30px;
+}
+
+#hthree1 {
+    padding-bottom: 30px;
+}
+
+.three p {
+    padding-left: 750px;
+    padding-bottom: 60px;
+    border: none;
+    width: 1250px;
+    line-height: 1.7rem;
+}
+
+
+
+/* ----------------------------- FOOTER -------------------------------*/
+
+
+
+footer {
+    background-color: hsl(240, 10%, 16%);
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    border-top-right-radius: 100px;
+    
+}
+
+#logo_two {
+    padding: 70px 0px 0px 150px;
+}
+
+.column {
+    float: left;
+    width: 10%;
+    padding-left: 300px;
+    position: relative;
+    left: 100px;
+    bottom: 40px;
+    
+    }
+
+.column h4 {
+    padding-bottom: 40px;
+    font-size: 16PX;
+    font-weight: 400;
+}
+
+.column p {
+    padding-bottom: 20px;
+    color: rgba(255, 255, 255, 0.767);
+    opacity: 90%;
+    font-size: 14px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+
